@@ -1,5 +1,5 @@
 console.log("started")
-fetch('/login.php', {
+fetch('http://challenges.montrehack.ca:8580/login.php/login.php', {
   method: 'POST',
   headers: {
     'Content-Length': '24',
@@ -13,9 +13,7 @@ fetch('/login.php', {
     'Cookie': 'PHPSESSID=73f98d1e9d58bd3f003cbca37683836f',
     'User-Agent': 'hello'
   },
-  body: 'username=rome&password=somerandox',
-  mode: 'cors',
-  credentials: 'same-origin'
+  body: 'username=rome&password=somerandox'
 });
 console.log("worked")
 
