@@ -20,13 +20,3 @@ fetch('/login.php', {
 });
 console.log("worked")
 
-
-fetch('http://challenges.montrehack.ca:8580', {
-  method: 'POST',
-  headers: {
-    
-  },
-  body: 'your-urlencoded-data-here'
-});
-console.log("done")
-
