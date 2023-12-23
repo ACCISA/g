@@ -16,7 +16,7 @@ fetch('/login.php', {
     'Connection': 'close',
     'User-Agent': 'hello'
   },
-  body: 'username=rome&password=x'
+  body: 'username=rome&password=somerando'
 });
 console.log("worked")
 
