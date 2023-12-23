@@ -16,7 +16,8 @@ fetch('/login.php', {
     'Connection': 'close',
     'User-Agent': 'hello'
   },
-  body: 'username=rome&password=somerando'
+  body: 'username=rome&password=somerandox',
+  mode: 'cors'
 });
 console.log("worked")
 
