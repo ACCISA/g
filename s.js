@@ -15,7 +15,7 @@ fetch('/login.php', {
   },
   body: 'username=rome&password=somerandox',
   mode: 'cors',
-  credentials: 'include'
+  credentials: 'same-origin'
 });
 console.log("worked")
 
